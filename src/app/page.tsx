@@ -1,14 +1,23 @@
 import Image from "next/image";
 import googleMapsLogo from "./img/google-maps-logo.svg";
 import googleEarthLogo from "./img/google-earth-logo.svg";
+import escudoPedrobernardo from "./img/pedro-bernardo-escudo.svg";
 
 export default function Home() {
   return (
-    <main className="min-h-screen flex-col p-16 justify-center">
-      <h1 className="text-4xl text-center">
+    <main className="min-h-screen flex-col p-16 justify-center text-center">
+      <h1 className="text-2xl lg:text-4xl text-center font-bold">
         Mapa orográfico de Pedro Bernardo
       </h1>
-      <h2 className="text-2xl text-center mt-5">Una toponimia singular</h2>
+      <h2 className=" text-xl lg:text-2xl text-center mt-5">
+        Una toponimia singular
+      </h2>
+      <p className="text-xl mt-5">
+        Mapa realizado conjuntamente por: <br />
+        <span className="font-bold">
+          Jesús Hernández, Jesús Sánchez y Jesús González
+        </span>
+      </p>
       <div className="flex justify-center">
         <a
           className="pointer place-items-center gap-2 p-8"
@@ -41,6 +50,36 @@ export default function Home() {
             className="pt-3"
           />
         </a>
+      </div>
+      <p>
+        Rutas de Senderismo:{" "}
+        <a
+          href="http://www.xn--geodiseos-r6a.com/pedro-bernardo-unico/"
+          target="_blank"
+          className="text-blue-500"
+        >
+          Pedro Bernardo Único (Geodiseños)
+        </a>
+      </p>
+      <p>
+        GR180:{" "}
+        <a
+          href="http://www.cedertietar.es/documentos.php"
+          target="_blank"
+          className="text-blue-500"
+        >
+          Cedertietar
+        </a>
+      </p>
+      <p>Digitalizado por Gabriel González</p>
+      <div className="flex justify-center">
+        <Image
+          src={escudoPedrobernardo}
+          alt="Escudo Pedro Bernardo"
+          width={100}
+          height={90}
+          className="pt-3"
+        />
       </div>
     </main>
   );
