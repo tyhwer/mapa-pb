@@ -1,7 +1,7 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Overpass } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const over = Overpass({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Mapa orográfico de Pedro Bernardo',
@@ -15,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body className={inter.className}>{children}</body>
+      <body className={over.className}>{children}</body>
     </html>
   )
 }

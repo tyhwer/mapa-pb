@@ -1,7 +1,5 @@
-import Image from "next/image";
 import googleMapsLogo from "./img/google-maps-logo.svg";
 import googleEarthLogo from "./img/google-earth-logo.svg";
-import escudoPedrobernardo from "./img/pedro-bernardo-escudo.svg";
 import SelectorTile from "./components/SelectorTile/SelectorTile";
 
 export default function Home() {
@@ -20,6 +18,9 @@ export default function Home() {
             Jesús Hernández, Jesús Sánchez y Jesús González
           </span>
         </p>
+
+        <p className="mt-3 text-sm">Digitalizado por Gabriel González</p>
+
         <div className="flex flex-col sm:flex-row justify-center mt-5">
           <SelectorTile
             title="Google Maps"
@@ -37,7 +38,8 @@ export default function Home() {
             link="https://earth.google.com/web/@40.241596,-4.9030115,840.35196644a,23819.66051302d,30y,0h,0t,0r/data=MigKJgokCiAxWXVkSEdhcVlkS28zVTVoNzdhU05XUEZOYmRFMlo4byAC"
           />
         </div>
-        <p>
+
+        <p className="py-3">
           Rutas de Senderismo:{" "}
           <a
             href="http://www.xn--geodiseos-r6a.com/pedro-bernardo-unico/"
@@ -57,16 +59,6 @@ export default function Home() {
             Cedertietar
           </a>
         </p>
-        <p>Digitalizado por Gabriel González</p>
-        <div className="flex justify-center">
-          <Image
-            src={escudoPedrobernardo}
-            alt="Escudo Pedro Bernardo"
-            width={100}
-            height={90}
-            className="pt-3"
-          />
-        </div>
       </main>
     </>
   );
