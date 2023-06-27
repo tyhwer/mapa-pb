@@ -39,16 +39,6 @@ export default function Home() {
           />
         </div>
 
-        <p className="py-3">
-          Rutas de Senderismo:{" "}
-          <a
-            href="http://www.xn--geodiseos-r6a.com/pedro-bernardo-unico/"
-            target="_blank"
-            className="text-blue-500"
-          >
-            Pedro Bernardo Único (Geodiseños)
-          </a>
-        </p>
         <p>
           GR180:{" "}
           <a
