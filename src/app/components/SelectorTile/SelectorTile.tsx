@@ -20,7 +20,7 @@ const SelectorTile = ({
       target="_blank"
       rel="noopener noreferrer"
     >
-      <div className="font-bold">{title}</div>
+      <div className="font-bold text-lg">{title}</div>
       <Image
         src={logoImage}
         alt="Google Maps Logo"
