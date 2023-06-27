@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <>
       <main className="min-h-screen flex-col p-8 sm:p-16 justify-center text-center bg-gradient-to-b from-white to-gray-100">
+        <div className="container m-auto">
         <h1 className="text-2xl lg:text-4xl text-center font-bold text-lime-800 tracking-tighter">
           Mapa orográfico de Pedro Bernardo
         </h1>
@@ -49,6 +50,7 @@ export default function Home() {
             Cedertietar
           </a>
         </p>
+        </div>
       </main>
     </>
   );
