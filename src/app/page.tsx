@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <main className="min-h-screen flex-col p-8 sm:p-16 justify-center text-center bg-gradient-to-b from-white to-gray-100">
-        <h1 className="text-2xl lg:text-4xl text-center font-bold">
+        <h1 className="text-2xl lg:text-4xl text-center font-bold text-lime-700">
           Mapa orográfico de Pedro Bernardo
         </h1>
         <h2 className=" text-xl lg:text-2xl text-center mt-5">

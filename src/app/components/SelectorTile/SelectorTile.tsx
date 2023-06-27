@@ -15,7 +15,7 @@ const SelectorTile = ({
 }: SelectorTileType) => {
   return (
     <a
-      className="pointer place-items-center p-8 flex flex-col shadow-lg rounded-xl border border-slate-100 bg-slate-50 hover:shadow transition m-5 hover:scale-105"
+      className="pointer place-items-center p-8 flex flex-col shadow-lg rounded-xl border border-slate-100 bg-slate-50 hover:shadow transition m-5 hover:scale-105 hover:bg-white"
       href={link}
       target="_blank"
       rel="noopener noreferrer"
