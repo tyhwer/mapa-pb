@@ -21,13 +21,16 @@ export default function Home() {
           </p>
 
           <p className="mt-3 text-sm">Digitalizado por Gabriel González</p>
-          
+
           <div className="max-w-screen-lg m-auto pt-5 text-left">
-          <p className="mt-4">
+            <p className="mt-4">
               Este mapa orográfico de Pedro Bernardo es un compendio de nombres
               de parajes, caminos, fuentes, cuevas, eras… del término municipal
-              de Pedro Bernardo. <strong>Con él pretendemos recoger el legado de parte
-              de la cultura rural de nuestros antepasados.</strong>
+              de Pedro Bernardo.{" "}
+              <strong>
+                Con él pretendemos recoger el legado de parte de la cultura
+                rural de nuestros antepasados.
+              </strong>
             </p>
 
             <p className="mt-4">
@@ -58,17 +61,19 @@ export default function Home() {
               link="https://earth.google.com/web/@40.241596,-4.9030115,840.35196644a,23819.66051302d,30y,0h,0t,0r/data=MigKJgokCiAxWXVkSEdhcVlkS28zVTVoNzdhU05XUEZOYmRFMlo4byAC"
             />
           </div>
-
-          <p>
-            GR180:{" "}
-            <a
-              href="http://www.cedertietar.es/documentos.php"
-              target="_blank"
-              className="text-blue-500"
-            >
-              Cedertietar
-            </a>
-          </p>
+          <div className="max-w-4xl mx-auto">
+            <div className="w-full aspect-w-16 aspect-h-9 mt-5 shadow-lg ">
+              <iframe
+                src={"https://www.youtube.com/embed/7_A9pa80w5g"}
+                title={
+                  "Mapa orográfico de Pedro Bernardo - Una toponimia singular"
+                }
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="rounded-lg"
+              ></iframe>
+            </div>
+          </div>
         </div>
       </main>
     </>
